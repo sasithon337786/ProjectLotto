@@ -117,7 +117,8 @@ class _RewardPageState extends State<RewardPage> {
                                             'assets/icons/bullet.png',
                                             width: 18,
                                             height: 18,
-                                          ),
+                                          ),  
+
                                       
                                           Text(
                                             'หวยรัฐบาลกะลาแลนด์',
