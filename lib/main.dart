@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_lotto/awards.dart';
 import 'package:flutter_application_lotto/login.dart';
 import 'package:flutter_application_lotto/purchase.dart';
 import 'package:flutter_application_lotto/reward.dart';
@@ -12,9 +13,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       title: 'Flutter Demo',
-      home: RewardPage(),
+      home: PrizeClaimPage(),
     );
   }
 }
