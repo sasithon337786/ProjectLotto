@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_lotto/awards.dart';
 import 'package:flutter_application_lotto/login.dart';
+import 'package:flutter_application_lotto/profile.dart';
 import 'package:flutter_application_lotto/purchase.dart';
 import 'package:flutter_application_lotto/reward.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       title: 'Flutter Demo',
-      home: PrizeClaimPage(),
+      home: ProfileScreen(),
     );
   }
 }
